@@ -57,7 +57,7 @@ You may organize your image files and audio files however you like.
 There is one caveat: **Do NOT put spaces or any of these symbols: `!@#$%^&*()"'` in your file names otherwise they will be
 skipped.** (This does not apply to the parent directories of the files.)
 
-The raw instrument name for each sound is the same as the name of the file (not including the extension). This is useful information if you're using a MIDI converter.
+The raw instrument name for each sound is the same as the name of the file (not including the extension). It may be all lowercase. This is useful information if you're using a MIDI converter.
 
 ## Running the program
 
