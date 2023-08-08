@@ -6,7 +6,7 @@ The file exported by this program, named by default `EXPORTED_THIRTYDOLLAR.json`
 the thirty dollar website using the extension below. The file contains all the image and sound data, so you can easily share it with others.
 
 This is to be paired with my fork of this extension,
-which is linked here: *TBA*
+which is linked here: https://github.com/i-winxd/thirty-dollar-custom-fork
 
 **WARNING**: Be careful when using files shared by other people, as you do not want to be loading anything that is malicious!!! I am not responsible for anything that happens due to you running other people's exports. If you really want to share this safely, you should just share the audio and image files you would put here instead of the JSON that was output by this program. The security vulnerabilities can be quite severe.
 
@@ -65,8 +65,8 @@ You must have Python 3.9 or later installed. I strongly recommend that you use t
 
 If you want to run `webp_to_png.py`, you must have `Pillow` installed: [how to install it](https://pillow.readthedocs.io/en/stable/installation.html)
 
-Run `main.py` to do the conversion process, which should output `EXPORTED_THIRTYDOLLAR.json`. If that file already exists, then it will overwrite it.
+**HERE:** Run `main.py` to do the conversion process, which should output `EXPORTED_THIRTYDOLLAR.json`. If that file already exists, then it will overwrite it.
 
-Run `webp_to_png.py` to convert all `.webp` files to `.png` files. Be aware that if you have `a.webp` and `a.png` in the same folder and run this program, what was `a.png` will be overwritten by `a.webp` converted to PNG.
+Run `webp_to_png.py` to convert all `.webp` files in this folder to `.png` files. Be aware that if you have `a.webp` and `a.png` in the same folder and run this program, what was `a.png` will be overwritten by `a.webp` converted to PNG.
 
 To run a Python script, open up terminal with the current directory set to the folder the `.py` file is in (do this easily by typing "cmd" in the file search box with this folder open) and run `python main.py`, or run the `.bat` file here.
